@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main-loader {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#header {
+    background-image: url('./components/Home/Design_MainPage/Layer2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 7px;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    width: 50px;
+}
+
+.links-part {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#menubar {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    text-align: right;
+    padding: 6px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.links-content {
+    margin-right: 35px;
+}
+
+#login-title {
+    text-align: center !important;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+#button {
+    border: 1px solid #7563D1;
+    border-radius: 4px;
+}
+
+#menubar a.links {
+    margin: 5px;
+    padding: 15px;
+    display: inline;
+    color: white;
+    font-size: 14px;
+}
+
+#menubar a.links:hover, #menubar a.links.active {
+    text-decoration: none;
+    color: #5c4dff;
+    cursor: pointer;
+}
+
+#text {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+#firstText {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#main {
+    position: relative;
+}
+
+#container1 {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: -65px;
+}
+
+#container1 .row {
+    margin: 0;
+}
+
+#container1 > div > div {
+    text-align: center;
+}
+
+#div1 {
+    background: linear-gradient(90deg, #6437C8, #0271FE);
+    height: 200px;
+    transform: skewY(5deg);
+    position: relative;
+    top: -50px;
+}
+
+#div2 {
+    background: linear-gradient(90deg, #0271FE, #6437C8);
+    height: 200px;
+    transform: skewY(-5deg);
+    position: relative;
+    top: -50px;
+}
+
+.shieldsLeft {
+    transform: skewY(-5deg);
+}
+
+#shield1 {
+    position: relative;
+}
+
+#img1, #img2,
+#img3, #img4 {
+    position: relative;
+    bottom: 15px;
+    width: 50%;
+}
+
+#img1Empty, #img2Empty,
+#img3Empty, #img4Empty {
+    display: none;
+}
+
+.des {
+    position: relative;
+    bottom: 170px;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+#shield1:hover #img1,
+#shield2:hover #img2,
+#shield3:hover #img3,
+#shield4:hover #img4 {
+    display: none;
+}
+
+#shield1:hover #img1Empty,
+#shield2:hover #img2Empty,
+#shield3:hover #img3Empty,
+#shield4:hover #img4Empty {
+    display: block;
+}
+
+
+#img1Empty img, #img2Empty img,
+#img3Empty img, #img4Empty img {
+    position: relative;
+    bottom: 15px;
+    width: 50%;
+}
+
+#shield2 {
+    position: relative;
+}
+
+.shieldsRight {
+    transform: skewY(5deg);
+}
+
+#shield3 {
+    position: relative;
+}
+
+#shield4 {
+    position: relative;
+}
+
+#div3 {
+    background-image: url('./components/Home/Design_MainPage/Layer3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+}
+
+#div4 {
+    position: relative;
+    background-image: url('./components/Home/Design_MainPage/camera.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+}
+
+#div4 .delete-default-style{
+    margin: unset;
+    padding: unset;
+}
+
+.carousel-content{
+    width: 100%;
+    position: absolute;
+    height: 640px;
+}
+
+.carousel-content div div div{
+    box-shadow: rgba(0, 0, 0, 0.4) 30px 0px 20px -20px, rgba(0, 0, 0, 0.4) -30px 0px 20px -20px;
+}
+
+.carousel-content #text{
+    top: 25px;
+}
+
+#container2 {
+    position: relative;
+}
+
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    opacity: 0.8;
+    position: relative;
+}
+
+#footer .panel {
+    padding: 35px;
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+
+#sectionText {
+    position: relative;
+    width: 35%;
+    float: right;
+    color: white;
+    margin: 0 auto;
+    top: 20%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.info-text-body{
+    height: 100%;
+}
+
+.info-ul span{
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #8cfff7;
+}
+.info-ul span:hover{
+    cursor: pointer;
+}
+
+.info-ul p{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.info-text-content {
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+#sectionText p{
+    text-align: justify;
+}
+
+div.invalid-feedback {
+    display: block;
+}
+
+/* Loader */
+.loader-content{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Loader End*/
+
+/* Support */
+.support-content{
+    position: fixed;
+    z-index: 9;
+    width: 130px;
+    height: 100px;
+    left: 92%;
+    bottom: 15px;
+}
+
+.support-content:hover .icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icon1 {
+    -webkit-animation: blinking 4s infinite;
+    -moz-animation:    blinking 4s infinite;
+    -o-animation:      blinking 4s infinite;
+    animation:         blinking 4s infinite;
+}
+
+@-webkit-keyframes blinking {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+@-moz-keyframes blinking {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+@-o-keyframes blinking {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+@keyframes blinking {
+    0%   { opacity: 0.3; }
+    50%  { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+/* Support End*/
+
+/* MEDIA */
+
+@media screen and (min-width: 320px) and (max-width: 560px) {
+	div.sign-up-body{
+		width: 300px;
+	}
+}

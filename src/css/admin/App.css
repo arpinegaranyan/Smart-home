@@ -1,0 +1,125 @@
+.app {
+    text-align: center;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    border: 7px solid rgb(18, 32, 74);
+    height: 500px;
+    width: 400px;
+    bottom: 30px;
+    position: absolute;
+    right: 10px;
+    line-height: 80%;
+    background: white;
+    border-radius: 5px;
+}
+
+h2 {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.app_header {
+    background-color: rgb(28, 121, 248);
+    padding-right: 4px;
+    color: white;
+    padding-left: 25px;
+    border-bottom: 5px solid rgb(16, 32, 74);
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.app_list {
+    max-height: 320px;
+    padding: 20px;
+    width: 360px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.icon1 {
+    width: 120px;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.close_button {
+    width: 30px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: #1c79f8;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.close_button:hover{
+    color: rgb(16, 32, 74);
+}
+
+button:focus {
+    outline: none;
+}
+
+.app1 {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 7px solid rgba(20, 13, 6, 0.8);
+    height: 500px;
+    margin-top: 7%;
+    width: 70%;
+    position: absolute;
+    margin-left: 15%;
+    background: white;
+    background-image: url(/img/network-line-pattern-icon.jpg);
+    background-size: 500px 500px;
+    border-radius: 4px;
+}
+
+.app_header1 {
+    background-color: rgba(44, 44, 49, 1);
+    color: white;
+    border-bottom: 7px solid rgba(20, 13, 6, 0.3);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 7px 0 0 0;
+}
+
+.app_list1 {
+    max-height: 320px;
+    padding: 20px;
+    width: 96%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(48, 2, 156);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(76, 127, 238);
+    border-radius: 80px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5f55ee;
+}

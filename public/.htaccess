@@ -1,0 +1,6 @@
+#todo to activate this module need to run this command `sudo a2enmod headers`
+
+<IfModule mod_headers.c>
+ Header set Access-Control-Allow-Origin "*"
+ Header set Access-Control-Allow-Methods: "POST, PUT, GET, OPTIONS"
+</IfModule>

@@ -1,0 +1,11 @@
+.admin-container {
+    background-image: url(/img/admin-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: block;
+    position: relative;
+}
+.admin-content{
+    min-height: 100vh;
+}

@@ -1,0 +1,12 @@
+.carousel-content {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.carousel.carousel-slider {
+    height: 500px ;
+ }
+
+.carousel .slide img{
+    height: 500px;
+}
